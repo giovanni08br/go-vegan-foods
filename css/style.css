@@ -54,7 +54,7 @@ body, h1, h2, ul, li, p{
     height: 57.292vw;
     display: flex;
 }
-.c-intro-temperos img{
+.c-intro-temperos _img{
     margin-top: 18.802vw;
 }
 
@@ -75,7 +75,7 @@ body, h1, h2, ul, li, p{
     margin-left: 2.083vw;
     margin-bottom: 2.083vw;
 }
-.c-intro-texto img{
+.c-intro-texto _img{
     padding-top: 2.604vw;
     position: absolute;
 }
@@ -100,12 +100,12 @@ body, h1, h2, ul, li, p{
     margin-bottom: auto;
     margin-top: 6.771vw;
 }
-.c-intro-img img{
+.c-intro-_img _img{
     margin-top: 4.167vw;
     width: 33.854vw;
     position: absolute;
 }
-.c-intro-img{
+.c-intro-_img{
     position: relative;
     align-items: center;
 }
@@ -118,7 +118,7 @@ body, h1, h2, ul, li, p{
     background: #EAE6DD;
     height: 13.542vw;
 }
-.c-faixa-produtos img{
+.c-faixa-produtos _img{
     position: absolute;
     max-width: 100%;
 }
@@ -156,7 +156,7 @@ body, h1, h2, ul, li, p{
     border: 1px solid #999;
 }
 
-.c-cardapio-bowl img{
+.c-cardapio-bowl _img{
     display: block;
 }
 
@@ -169,7 +169,7 @@ body, h1, h2, ul, li, p{
     padding: 1.250vw 0;
 }
 
-.c-cardapio-pizzas img{
+.c-cardapio-pizzas _img{
     display: block;
 }
 
@@ -197,7 +197,7 @@ body, h1, h2, ul, li, p{
     border: 1px solid #999;
 }
 
-.c-cardapio-burgers img{
+.c-cardapio-burgers _img{
     display: block;
 }
 
@@ -279,7 +279,7 @@ body, h1, h2, ul, li, p{
     position: relative;
 }
 
-.c-blog-fotos img{
+.c-blog-fotos _img{
     display: block;
     width: 41.667vw;
     padding-top: 3.125vw;
@@ -348,7 +348,7 @@ body, h1, h2, ul, li, p{
     padding-bottom: 4.167vw;
     color: white;
 }
-.c-app-img img{
+.c-app-_img _img{
     max-width: 26.042vw;
 }
 .c-app-texto{
@@ -395,13 +395,13 @@ body, h1, h2, ul, li, p{
     gap: 1vw;
     margin-bottom: 6.250vw;
 }
-.insta01 img{
+.insta01 _img{
     padding-bottom: 1vw;
 }
-.insta02 img{
+.insta02 _img{
     padding-bottom: 1vw;
 }
-.insta03 img{
+.insta03 _img{
     padding-bottom: 1vw;
 }
 
