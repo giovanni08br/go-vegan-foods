@@ -1,0 +1,451 @@
+/* RESET */
+
+body, h1, h2, ul, li, p{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+/* HEADER */
+
+.header{
+    height: 3.698vw;
+    background:#788965;
+}
+.c-header{
+    max-width: 61.250vw;
+    height: 3.177vw;
+    margin: 0 auto;
+}
+.c-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.521vw;
+    padding-bottom: 1.042vw;
+}
+.c-nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.c-nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+.c-nav-button{
+    border: 2px solid white;
+    padding: 0.521vw 1.042vw;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+/* INTRO */
+
+.l-intro{
+    background: #EAE6DD;
+    height: 57.292vw;
+    display: flex;
+}
+.c-intro-temperos img{
+    margin-top: 18.802vw;
+}
+
+.c-intro-texto h1{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 105%;
+    margin-top: 10.208vw;
+    margin-left: 3.646vw;
+}
+.c-intro-texto p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.667vw;
+    line-height: 130%;
+    margin-top: 2.083vw;
+    margin-left: 2.083vw;
+    margin-bottom: 2.083vw;
+}
+.c-intro-texto img{
+    padding-top: 2.604vw;
+    position: absolute;
+}
+.c-intro-texto{
+    position: relative;
+}
+.c-intro-texto a{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.667vw;
+    line-height: 130%;
+    color: white;
+    text-decoration: none;
+    padding: 1.042vw 2.083vw;
+    background:#EC5752;
+    border-radius: 8px;
+    margin-left: 3.646vw;
+    box-shadow: 0.521vw 0.521vw 0 rgba(37, 37, 37, .2);
+}
+.seta-maior{
+    max-width: 16.146vw;
+    margin-bottom: auto;
+    margin-top: 6.771vw;
+}
+.c-intro-img img{
+    margin-top: 4.167vw;
+    width: 33.854vw;
+    position: absolute;
+}
+.c-intro-img{
+    position: relative;
+    align-items: center;
+}
+.c-bowl{
+    padding-top: 6.042vw;
+    position: absolute;
+}
+.c-faixa-produtos{
+    position: relative;
+    background: #EAE6DD;
+    height: 13.542vw;
+}
+.c-faixa-produtos img{
+    position: absolute;
+    max-width: 100%;
+}
+
+/* CARDAPIO */
+
+.l-cardapio{
+    background: #EAE6DD;
+}
+
+.l-cardapio h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.500vw;
+    line-height: 105%;
+    padding-bottom: 1.042vw;
+}
+
+.c-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 18.229vw;
+}
+
+.c-cardapio{
+    display: flex;
+    gap: 2.083vw;
+    margin-bottom: 4.167vw;
+}
+.c-cardapio-bowl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+
+.c-cardapio-bowl img{
+    display: block;
+}
+
+.c-cardapio-bowl span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+.c-cardapio-pizzas img{
+    display: block;
+}
+
+.c-cardapio-pizzas span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+.c-cardapio-pizzas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+.c-cardapio-burgers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+
+.c-cardapio-burgers img{
+    display: block;
+}
+
+.c-cardapio-burgers span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+.c-sobremesas{
+    display: flex;
+    gap: 2.083vw;
+    margin-bottom: 6.250vw;
+}
+
+.c-sobremesa-panqueca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+
+.c-sobremesa-waffles span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size:1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+.c-sobremesa-waffles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+
+.c-sobremesa-sorvetes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #999;
+}
+
+.c-sobremesa-sorvetes span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+.c-sobremesa-panqueca span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 105%;
+    color: #252525;
+    padding: 1.250vw 0;
+}
+
+/* BLOG */
+
+.l-blog{
+    background: url(/bg-blog.png);
+    max-width:100%;
+}
+
+.c-blog{
+    display: flex;
+    position: relative;
+}
+
+.c-blog-fotos img{
+    display: block;
+    width: 41.667vw;
+    padding-top: 3.125vw;
+    padding-left: 8.333vw;
+}
+.c-blog-texto h1{
+    font-family: 'Montserrat';
+    font-size: 5.104vw;
+    font-weight: 600;
+    color:rgba(34, 34, 34, 1);
+    line-height: 102%;
+    padding-bottom: 4.167vw;
+    padding-top: 15.625vw;
+}
+.c-blog-texto{
+    margin-left: 4.167vw;
+}
+
+.c-blog-texto a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 130%;
+    text-decoration: none;
+    background: #EC5752;
+    padding: 1.042vw 1.042vw;
+    border-radius: 0.417vw;
+    color: white;
+    box-shadow: 0.521vw 0.521vw 0 rgba(37, 37, 37, .2);
+}
+.c-blog-texto a:hover{
+    background: #aa413d;
+    transition: .2s;
+}
+.c-blog-icon{
+    display: block;
+    position: absolute;
+    margin-left: 44.271vw;
+    margin-top: 10.417vw;
+}
+.seta-nossoblog{
+    margin-bottom: 1.563vw;
+    max-width: 5.208vw;
+    position: absolute;
+}
+
+/* nosso app */
+
+.l-app{
+    background: #C34440;
+}
+.c-app{
+    display: flex;
+    margin-right: 9.479vw;
+    margin-left: 15.625vw;
+    padding-top: 4.167vw;
+}
+.c-app h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.271vw;
+    line-height: 105%;
+    text-transform: uppercase;
+    padding-bottom: 4.167vw;
+    color: white;
+}
+.c-app-img img{
+    max-width: 26.042vw;
+}
+.c-app-texto{
+    padding-left: 4.167vw;
+    padding-top: 5.208vw;
+}
+.c-app-socialmedia a:first-child{
+    padding-left: 0px;
+}
+.c-app-socialmedia a{
+    padding-left: 2.083vw;
+}
+
+/* instagram */
+
+.l-insta{
+    background: #788965;
+}
+.c-container-insta{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15.625vw;
+    padding-right: 15.625vw;
+}
+.c-insta-logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.c-insta-logo p{
+    border-top: 0.521vw solid white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.500vw;
+    line-height: 105%;
+    color: white;
+    padding:4.167vw 0;
+    margin-top: 4.167vw;
+}
+
+.c-insta-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+    margin-bottom: 6.250vw;
+}
+.insta01 img{
+    padding-bottom: 1vw;
+}
+.insta02 img{
+    padding-bottom: 1vw;
+}
+.insta03 img{
+    padding-bottom: 1vw;
+}
+
+/* footer */
+
+.c-footer{
+    background: #EAE6DD;
+    display: flex;
+    padding: 2.083vw 15.625vw;
+    justify-content: space-around;
+}
+.c-footer h2{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 1.667vw;
+    line-height: 1.979vw;
+    text-transform: uppercase;
+    color: #222222;
+}
+.c-footer a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.833vw;
+    line-height: 1vw;
+    color: #222222;
+}
+
+.c-footer-nav li{
+    padding-bottom: 1.042vw;
+}
+.c-footer-contatos li{
+    padding-bottom: 1.042vw;
+}
+.c-footer-socialmedia a{
+    padding-right: 1.042vw;
+}
+.c-footer-socialmedia p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.833vw;
+    line-height: 1vw;
+    color: #222222;
+    padding-bottom: 1vw;
+}
