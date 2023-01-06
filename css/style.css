@@ -95,6 +95,12 @@ body, h1, h2, ul, li, p{
     margin-left: 3.646vw;
     box-shadow: 0.521vw 0.521vw 0 rgba(37, 37, 37, .2);
 }
+
+.c-intro-texto a:hover{
+    background:#b3423e;
+    transition: .4s;
+}
+
 .seta-maior{
     max-width: 16.146vw;
     margin-bottom: auto;
@@ -154,32 +160,41 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
+}
+
+.c-cardapio-bowl:hover{
+    transform: translateX(-16px);
+    transition: .4s;
 }
 
 .c-cardapio-bowl img{
     display: block;
 }
 
-.c-cardapio-bowl span{
+.c-cardapio-bowl a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
 }
 
 .c-cardapio-pizzas img{
     display: block;
 }
 
-.c-cardapio-pizzas span{
+.c-cardapio-pizzas a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
+    transition: .4s;
 }
 
 .c-cardapio-pizzas{
@@ -188,26 +203,40 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
 }
+
+.c-cardapio-pizzas:hover{
+    transform: translateX(-16px);
+    transition: .4s;
+}
+
+.c-cardapio-burgers:hover{
+    transform: translateX(-16px);
+    transition: .4s;
+}
+
 .c-cardapio-burgers{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
 }
 
 .c-cardapio-burgers img{
     display: block;
 }
 
-.c-cardapio-burgers span{
+.c-cardapio-burgers a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
 }
 
 .c-sobremesas{
@@ -222,15 +251,22 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
 }
 
-.c-sobremesa-waffles span{
+.c-sobremesa-panqueca:hover{
+    transform: translateX(-16px);
+    transition: .4s;
+}
+
+.c-sobremesa-waffles a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size:1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
 }
 
 .c-sobremesa-waffles{
@@ -239,6 +275,12 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
+}
+
+.c-sobremesa-waffles:hover{
+    transform: translateX(-16px);
+    transition: .4s;
 }
 
 .c-sobremesa-sorvetes{
@@ -247,24 +289,32 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
+    transition: .4s;
 }
 
-.c-sobremesa-sorvetes span{
+.c-sobremesa-sorvetes:hover{
+    transform: translateX(-16px);
+    transition: .4s;
+}
+
+.c-sobremesa-sorvetes a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
 }
 
-.c-sobremesa-panqueca span{
+.c-sobremesa-panqueca a{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1.250vw;
     line-height: 105%;
     color: #252525;
     padding: 1.250vw 0;
+    text-decoration: none;
 }
 
 /* BLOG */
@@ -425,10 +475,14 @@ body, h1, h2, ul, li, p{
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.833vw;
     line-height: 1vw;
     color: #222222;
+}
+
+.c-footer a:hover{
+    font-weight: 600;
 }
 
 .c-footer-nav li{
