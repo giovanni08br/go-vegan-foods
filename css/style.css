@@ -254,6 +254,101 @@ body, h1, h2, ul, li, p{
     transition: .4s;
 }
 
+@media(max-width:1080px){
+
+    .c-sobremesas{
+        gap: 1vw;
+    }
+
+    .c-cardapio{
+        gap: 1vw;
+    }
+
+    .c-cardapio-bowl{
+        align-items: center;
+        max-width: fit-content;
+        transition: none;
+    }
+
+    .c-cardapio-bowl:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .c-cardapio-bowl img{
+        width: 30vw;
+    }
+
+    .c-cardapio-pizzas{
+        align-items: center;
+        max-width: fit-content;
+        transform: none;
+    }
+
+    .c-cardapio-pizzas:hover{
+        transform: none;
+    }
+
+    .c-cardapio-pizzas img{
+        width: 30vw;
+    }
+
+    .c-cardapio-burgers{
+        align-items: center;
+        max-width: fit-content;
+        transform: none;
+    }
+
+    .c-cardapio-burgers:hover{
+        transform: none;
+    }
+
+    .c-cardapio-burgers img{
+        width: 30vw;
+    }
+    .c-sobremesa-panqueca{
+        align-items: center;
+        max-width: fit-content;
+    }
+    .c-sobremesa-panqueca:hover{
+        transform: none;
+        transition: none;
+    }
+    .c-sobremesa-panqueca img{
+        width: 30vw;
+    }
+    .c-sobremesa-sorvetes{
+        align-items: center;
+        max-width: fit-content;
+    }
+
+    .c-sobremesa-sorvetes:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .c-sobremesa-sorvetes img{
+        width: 30vw;
+    }
+        
+    .c-sobremesa-waffles{
+        align-items: center;
+        max-width: fit-content;
+        transform: none;
+    }
+    .c-sobremesa-waffles:hover{
+        transform: none;
+    }
+    .c-sobremesa-waffles img{
+        width: 30vw;
+    }
+
+    .c-container{
+        margin: 0 4vw;
+    }
+
+}
+
 .c-sobremesa-panqueca:hover{
     transform: translateX(-16px);
     transition: .4s;
@@ -371,6 +466,13 @@ body, h1, h2, ul, li, p{
     margin-left: 44.271vw;
     margin-top: 10.417vw;
 }
+
+@media(max-width:1080px){
+    .c-blog-icon img{
+        width: 15vw;
+    }
+}
+
 .seta-nossoblog{
     margin-bottom: 1.563vw;
     max-width: 5.208vw;
@@ -412,6 +514,15 @@ body, h1, h2, ul, li, p{
     padding-left: 2.083vw;
 }
 
+@media(max-width:1080px){
+    .c-app-socialmedia{
+        display: flex;
+    }
+    .c-app-socialmedia img{
+        width: 17vw;
+    }
+}
+
 /* instagram */
 
 .l-insta{
@@ -448,6 +559,15 @@ body, h1, h2, ul, li, p{
 .insta01 img{
     padding-bottom: 1vw;
 }
+
+@media(max-width:1080px){
+    .c-container-insta{
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+
+}
+
 .insta02 img{
     padding-bottom: 1vw;
 }
