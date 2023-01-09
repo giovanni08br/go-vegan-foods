@@ -51,38 +51,64 @@ body, h1, h2, ul, li, p{
 
 .l-intro{
     background: #EAE6DD;
-    height: 57.292vw;
-    display: flex;
+    height: 59.292vw;
 }
+
+.c-cont-intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-temperos img{
+    width: 15.833vw;
+}
+
 .c-intro-temperos img{
     margin-top: 18.802vw;
 }
 
-.c-intro-texto h1{
+.c-imagem-bowl img{
+    width: 31.250vw;
+}
+
+.c-icone-seta{
+    margin-bottom: auto;
+    margin-top: 7vw;
+}
+.c-vetor-bowl{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vw;
+}
+.c-texto-intro h1{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 5vw;
     line-height: 105%;
-    margin-top: 10.208vw;
-    margin-left: 3.646vw;
+    /* margin-top: 10.208vw;
+    margin-left: 3.646vw; */
 }
-.c-intro-texto p{
+.c-texto-intro p{
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 1.667vw;
     line-height: 130%;
-    margin-top: 2.083vw;
-    margin-left: 2.083vw;
-    margin-bottom: 2.083vw;
+    /* margin-top: 2.083vw; */
+    /* margin-left: 2.083vw;
+    margin-bottom: 2.083vw; */
 }
-.c-intro-texto img{
-    padding-top: 2.604vw;
-    position: absolute;
+
+.c-texto-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-left: 4fvw;
 }
-.c-intro-texto{
-    position: relative;
-}
-.c-intro-texto a{
+
+.c-texto-intro a{
+    width: 15.271vw;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 1.667vw;
@@ -92,20 +118,18 @@ body, h1, h2, ul, li, p{
     padding: 1.042vw 2.083vw;
     background:#EC5752;
     border-radius: 8px;
-    margin-left: 3.646vw;
     box-shadow: 0.521vw 0.521vw 0 rgba(37, 37, 37, .2);
 }
 
-.c-intro-texto a:hover{
+.c-texto-intro a:hover{
     background:#b3423e;
     transition: .4s;
 }
 
-.seta-maior{
-    max-width: 16.146vw;
-    margin-bottom: auto;
-    margin-top: 6.771vw;
+.c-icone-seta img{
+    width: 15vw;
 }
+
 .c-intro-img img{
     margin-top: 4.167vw;
     width: 33.854vw;
@@ -115,6 +139,13 @@ body, h1, h2, ul, li, p{
     position: relative;
     align-items: center;
 }
+
+@media(max-width:1440px){
+    .c-intro-img{
+        width: 500px;
+    }
+}
+
 .c-bowl{
     padding-top: 6.042vw;
     position: absolute;
@@ -154,18 +185,19 @@ body, h1, h2, ul, li, p{
     gap: 2.083vw;
     margin-bottom: 4.167vw;
 }
+
 .c-cardapio-bowl{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
+    /* transition: .4s; */
 }
 
 .c-cardapio-bowl:hover{
-    transform: translateX(-16px);
-    transition: .4s;
+    transform:none;
+    /* transition: .4s; */
 }
 
 .c-cardapio-bowl img{
@@ -194,7 +226,7 @@ body, h1, h2, ul, li, p{
     color: #252525;
     padding: 1.250vw 0;
     text-decoration: none;
-    transition: .4s;
+    /* transition: .4s; */
 }
 
 .c-cardapio-pizzas{
@@ -203,17 +235,12 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
-}
-
-.c-cardapio-pizzas:hover{
-    transform: translateX(-16px);
-    transition: .4s;
+    /* transition: .4s; */
 }
 
 .c-cardapio-burgers:hover{
-    transform: translateX(-16px);
-    transition: .4s;
+    transform:none;
+    /* transition: .4s; */
 }
 
 .c-cardapio-burgers{
@@ -222,7 +249,7 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
+    /* transition: .4s; */
 }
 
 .c-cardapio-burgers img{
@@ -251,7 +278,20 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
+    /* transition: .4s; */
+}
+
+@media(max-width:1440px){
+
+    .c-container{
+        margin: 0 1vw;
+    }
+
+
+    .c-cardapio-bowl{
+        display: flex;
+
+    }
 }
 
 @media(max-width:1080px){
@@ -267,12 +307,6 @@ body, h1, h2, ul, li, p{
     .c-cardapio-bowl{
         align-items: center;
         max-width: fit-content;
-        transition: none;
-    }
-
-    .c-cardapio-bowl:hover{
-        transition: none;
-        transform: none;
     }
 
     .c-cardapio-bowl img{
@@ -282,11 +316,6 @@ body, h1, h2, ul, li, p{
     .c-cardapio-pizzas{
         align-items: center;
         max-width: fit-content;
-        transform: none;
-    }
-
-    .c-cardapio-pizzas:hover{
-        transform: none;
     }
 
     .c-cardapio-pizzas img{
@@ -296,35 +325,19 @@ body, h1, h2, ul, li, p{
     .c-cardapio-burgers{
         align-items: center;
         max-width: fit-content;
-        transform: none;
     }
 
-    .c-cardapio-burgers:hover{
-        transform: none;
-    }
-
-    .c-cardapio-burgers img{
-        width: 30vw;
-    }
     .c-sobremesa-panqueca{
         align-items: center;
         max-width: fit-content;
     }
-    .c-sobremesa-panqueca:hover{
-        transform: none;
-        transition: none;
-    }
+
     .c-sobremesa-panqueca img{
         width: 30vw;
     }
     .c-sobremesa-sorvetes{
         align-items: center;
         max-width: fit-content;
-    }
-
-    .c-sobremesa-sorvetes:hover{
-        transform: none;
-        transition: none;
     }
 
     .c-sobremesa-sorvetes img{
@@ -334,11 +347,8 @@ body, h1, h2, ul, li, p{
     .c-sobremesa-waffles{
         align-items: center;
         max-width: fit-content;
-        transform: none;
     }
-    .c-sobremesa-waffles:hover{
-        transform: none;
-    }
+
     .c-sobremesa-waffles img{
         width: 30vw;
     }
@@ -347,11 +357,6 @@ body, h1, h2, ul, li, p{
         margin: 0 4vw;
     }
 
-}
-
-.c-sobremesa-panqueca:hover{
-    transform: translateX(-16px);
-    transition: .4s;
 }
 
 .c-sobremesa-waffles a{
@@ -370,12 +375,6 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
-}
-
-.c-sobremesa-waffles:hover{
-    transform: translateX(-16px);
-    transition: .4s;
 }
 
 .c-sobremesa-sorvetes{
@@ -384,12 +383,6 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    transition: .4s;
-}
-
-.c-sobremesa-sorvetes:hover{
-    transform: translateX(-16px);
-    transition: .4s;
 }
 
 .c-sobremesa-sorvetes a{
@@ -501,7 +494,7 @@ body, h1, h2, ul, li, p{
     color: white;
 }
 .c-app-img img{
-    max-width: 26.042vw;
+    width: 26.042vw;
 }
 .c-app-texto{
     padding-left: 4.167vw;
@@ -510,16 +503,20 @@ body, h1, h2, ul, li, p{
 .c-app-socialmedia a:first-child{
     padding-left: 0px;
 }
-.c-app-socialmedia a{
-    padding-left: 2.083vw;
-}
 
 @media(max-width:1080px){
     .c-app-socialmedia{
         display: flex;
+        gap: 2vw;
     }
     .c-app-socialmedia img{
         width: 17vw;
+    }
+}
+
+@media(max-width:1440px){
+    .c-app-img img{
+        width: auto;
     }
 }
 
@@ -531,9 +528,28 @@ body, h1, h2, ul, li, p{
 .c-container-insta{
     display: flex;
     flex-direction: column;
-    padding-left: 15.625vw;
-    padding-right: 15.625vw;
 }
+
+.c-insta-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.insta01{
+    display: flex;
+    flex-direction: column;
+}
+.insta02{
+    display: flex;
+    flex-direction: column;
+}
+.insta03{
+    display: flex;
+    flex-direction: column;
+}
+
 .c-insta-logo{
     margin-left: auto;
     margin-right: auto;
@@ -550,15 +566,13 @@ body, h1, h2, ul, li, p{
     margin-top: 4.167vw;
 }
 
-.c-insta-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1vw;
-    margin-bottom: 6.250vw;
+@media(max-width:1440px){
+    .c-insta-grid{
+        padding-left: 35vw;
+        padding-right: 35vw;
+    }
 }
-.insta01 img{
-    padding-bottom: 1vw;
-}
+
 
 @media(max-width:1080px){
     .c-container-insta{
@@ -568,12 +582,6 @@ body, h1, h2, ul, li, p{
 
 }
 
-.insta02 img{
-    padding-bottom: 1vw;
-}
-.insta03 img{
-    padding-bottom: 1vw;
-}
 
 /* footer */
 
