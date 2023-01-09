@@ -177,7 +177,7 @@ body, h1, h2, ul, li, p{
 .c-container{
     display: flex;
     flex-direction: column;
-    margin: 0 18.229vw;
+    align-items: center;
 }
 
 .c-cardapio{
@@ -192,12 +192,6 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    /* transition: .4s; */
-}
-
-.c-cardapio-bowl:hover{
-    transform:none;
-    /* transition: .4s; */
 }
 
 .c-cardapio-bowl img{
@@ -226,7 +220,6 @@ body, h1, h2, ul, li, p{
     color: #252525;
     padding: 1.250vw 0;
     text-decoration: none;
-    /* transition: .4s; */
 }
 
 .c-cardapio-pizzas{
@@ -235,12 +228,10 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    /* transition: .4s; */
 }
 
 .c-cardapio-burgers:hover{
     transform:none;
-    /* transition: .4s; */
 }
 
 .c-cardapio-burgers{
@@ -249,11 +240,6 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    /* transition: .4s; */
-}
-
-.c-cardapio-burgers img{
-    display: block;
 }
 
 .c-cardapio-burgers a{
@@ -278,7 +264,7 @@ body, h1, h2, ul, li, p{
     align-items: center;
     background: white;
     border: 1px solid #999;
-    /* transition: .4s; */
+
 }
 
 @media(max-width:1440px){
@@ -286,11 +272,23 @@ body, h1, h2, ul, li, p{
     .c-container{
         margin: 0 1vw;
     }
-
-
-    .c-cardapio-bowl{
-        display: flex;
-
+    .c-cardapio-bowl img{
+        width: 30vw;
+    }
+    .c-cardapio-burgers img{
+        width: 30vw;
+    }
+    .c-cardapio-pizzas img{
+        width: 30vw;
+    }
+    .c-sobremesa-panqueca img{
+        width: 30vw;
+    }
+    .c-sobremesa-sorvetes img{
+        width: 30vw;
+    }
+    .c-sobremesa-waffles img{
+        width: 30vw;
     }
 }
 
@@ -304,28 +302,22 @@ body, h1, h2, ul, li, p{
         gap: 1vw;
     }
 
-    .c-cardapio-bowl{
-        align-items: center;
-        max-width: fit-content;
-    }
-
     .c-cardapio-bowl img{
         width: 30vw;
-    }
-
-    .c-cardapio-pizzas{
-        align-items: center;
-        max-width: fit-content;
     }
 
     .c-cardapio-pizzas img{
         width: 30vw;
     }
 
-    .c-cardapio-burgers{
+    .c-cardapio-burgers img{
+        width: 30vw;
+    }
+
+    /* .c-cardapio-bowl{
         align-items: center;
         max-width: fit-content;
-    }
+    } */
 
     .c-sobremesa-panqueca{
         align-items: center;
@@ -511,12 +503,6 @@ body, h1, h2, ul, li, p{
     }
     .c-app-socialmedia img{
         width: 17vw;
-    }
-}
-
-@media(max-width:1440px){
-    .c-app-img img{
-        width: auto;
     }
 }
 
