@@ -269,9 +269,6 @@ body, h1, h2, ul, li, p{
 
 @media(max-width:1440px){
 
-    .c-container{
-        margin: 0 1vw;
-    }
     .c-cardapio-bowl img{
         width: 30vw;
     }
@@ -452,7 +449,7 @@ body, h1, h2, ul, li, p{
     margin-top: 10.417vw;
 }
 
-@media(max-width:1080px){
+@media(max-width:1440px){
     .c-blog-icon img{
         width: 15vw;
     }
@@ -496,6 +493,12 @@ body, h1, h2, ul, li, p{
     padding-left: 0px;
 }
 
+@media(max-width:1540px){
+    .c-app-socialmedia img{
+        width: 17vw;
+    }
+}
+
 @media(max-width:1080px){
     .c-app-socialmedia{
         display: flex;
@@ -519,21 +522,39 @@ body, h1, h2, ul, li, p{
 .c-insta-grid{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-bottom: 80px;
+    gap: 0.5vw;
 }
 
 .insta01{
     display: flex;
     flex-direction: column;
+    gap: 0.5vw;
 }
+
+.insta01 img{
+    width: 15.625vw;
+}
+
 .insta02{
     display: flex;
     flex-direction: column;
+    gap: 0.7vw;
 }
+
+.insta02 img{
+    width: 27.1vw;
+}
+
 .insta03{
     display: flex;
     flex-direction: column;
+    gap: 0.7vw;
+}
+
+.insta03 img{
+    width: 21.3vw;
 }
 
 .c-insta-logo{
